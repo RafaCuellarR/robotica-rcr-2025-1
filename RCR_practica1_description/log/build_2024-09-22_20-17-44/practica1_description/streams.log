@@ -1,0 +1,25 @@
+[0.128s] Invoking command in '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/build/practica1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/build/practica1_description -- -j2 -l2
+[0.942s] Invoked command in '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/build/practica1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/build/practica1_description -- -j2 -l2
+[1.062s] Invoking command in '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/build/practica1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/build/practica1_description
+[1.091s] -- Install configuration: ""
+[1.118s] -- Up-to-date: /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description//launch
+[1.130s] -- Up-to-date: /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description//launch/basic_link_display.launch.xml
+[1.131s] -- Up-to-date: /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description//rviz
+[1.133s] -- Up-to-date: /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description//urdf
+[1.135s] -- Installing: /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description//urdf/basic_link.urdf
+[1.137s] -- Up-to-date: /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/ament_index/resource_index/package_run_dependencies/practica1_description
+[1.138s] -- Up-to-date: /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/ament_index/resource_index/parent_prefix_path/practica1_description
+[1.147s] -- Up-to-date: /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/environment/ament_prefix_path.sh
+[1.148s] -- Up-to-date: /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/environment/ament_prefix_path.dsv
+[1.148s] -- Up-to-date: /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/environment/path.sh
+[1.149s] -- Up-to-date: /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/environment/path.dsv
+[1.154s] -- Up-to-date: /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/local_setup.bash
+[1.157s] -- Up-to-date: /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/local_setup.sh
+[1.157s] -- Up-to-date: /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/local_setup.zsh
+[1.158s] -- Up-to-date: /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/local_setup.dsv
+[1.158s] -- Installing: /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/package.dsv
+[1.158s] -- Up-to-date: /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/ament_index/resource_index/packages/practica1_description
+[1.163s] -- Up-to-date: /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/cmake/practica1_descriptionConfig.cmake
+[1.163s] -- Up-to-date: /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/cmake/practica1_descriptionConfig-version.cmake
+[1.163s] -- Up-to-date: /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/package.xml
+[1.165s] Invoked command in '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/build/practica1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/build/practica1_description

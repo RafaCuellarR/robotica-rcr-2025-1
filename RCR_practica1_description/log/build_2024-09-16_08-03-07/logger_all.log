@@ -1,0 +1,102 @@
+[3.738s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.738s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x773c65257a00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x773c65398820>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x773c65398820>>, mixin_verb=('build',))
+[8.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[8.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[8.707s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[8.707s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[8.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[8.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[8.709s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description'
+[8.709s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[8.710s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[8.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[8.712s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[8.712s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[8.713s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[8.713s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[8.713s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[8.714s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[8.910s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'practica1_description'
+[8.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[8.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[8.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[8.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[8.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[9.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[9.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[9.459s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install
+[9.472s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[9.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[12.236s] Level 5:colcon.colcon_core.verb:set package 'practica1_description' build argument 'cmake_args' from command line to 'None'
+[12.236s] Level 5:colcon.colcon_core.verb:set package 'practica1_description' build argument 'cmake_target' from command line to 'None'
+[12.236s] Level 5:colcon.colcon_core.verb:set package 'practica1_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[12.237s] Level 5:colcon.colcon_core.verb:set package 'practica1_description' build argument 'cmake_clean_cache' from command line to 'False'
+[12.237s] Level 5:colcon.colcon_core.verb:set package 'practica1_description' build argument 'cmake_clean_first' from command line to 'False'
+[12.237s] Level 5:colcon.colcon_core.verb:set package 'practica1_description' build argument 'cmake_force_configure' from command line to 'False'
+[12.237s] Level 5:colcon.colcon_core.verb:set package 'practica1_description' build argument 'ament_cmake_args' from command line to 'None'
+[12.237s] Level 5:colcon.colcon_core.verb:set package 'practica1_description' build argument 'catkin_cmake_args' from command line to 'None'
+[12.237s] Level 5:colcon.colcon_core.verb:set package 'practica1_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[12.237s] DEBUG:colcon.colcon_core.verb:Building package 'practica1_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/build/practica1_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description', 'merge_install': False, 'path': '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description', 'symlink_install': False, 'test_result_base': None}
+[12.238s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[12.242s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[12.243s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description' with build type 'ament_cmake'
+[12.245s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description'
+[12.304s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[12.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/build/practica1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/build/practica1_description -- -j2 -l2
+[12.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/build/practica1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/build/practica1_description -- -j2 -l2
+[12.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/build/practica1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/build/practica1_description
+[13.020s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(practica1_description)
+[13.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/build/practica1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/build/practica1_description
+[13.065s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description' for CMake module files
+[13.068s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description' for CMake config files
+[13.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('practica1_description', 'cmake_prefix_path')
+[13.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/hook/cmake_prefix_path.ps1'
+[13.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/hook/cmake_prefix_path.dsv'
+[13.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/hook/cmake_prefix_path.sh'
+[13.093s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/bin'
+[13.094s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/lib/pkgconfig/practica1_description.pc'
+[13.097s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/lib/python3.10/site-packages'
+[13.098s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/bin'
+[13.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/package.ps1'
+[13.105s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/package.dsv'
+[13.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/package.sh'
+[13.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/package.bash'
+[13.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/package.zsh'
+[13.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/colcon-core/packages/practica1_description)
+[13.235s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(practica1_description)
+[13.236s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description' for CMake module files
+[13.239s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description' for CMake config files
+[13.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('practica1_description', 'cmake_prefix_path')
+[13.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/hook/cmake_prefix_path.ps1'
+[13.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/hook/cmake_prefix_path.dsv'
+[13.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/hook/cmake_prefix_path.sh'
+[13.247s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/bin'
+[13.247s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/lib/pkgconfig/practica1_description.pc'
+[13.248s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/lib/python3.10/site-packages'
+[13.249s] Level 1:colcon.colcon_core.environment:checking '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/bin'
+[13.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/package.ps1'
+[13.252s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/package.dsv'
+[13.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/package.sh'
+[13.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/package.bash'
+[13.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/practica1_description/package.zsh'
+[13.261s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/practica1_description/share/colcon-core/packages/practica1_description)
+[13.262s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.262s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.263s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.263s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.389s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.389s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.390s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.472s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.475s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/local_setup.ps1'
+[13.486s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/_local_setup_util_ps1.py'
+[13.503s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/setup.ps1'
+[13.512s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/local_setup.sh'
+[13.519s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/_local_setup_util_sh.py'
+[13.525s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/setup.sh'
+[13.530s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/local_setup.bash'
+[13.558s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/setup.bash'
+[13.566s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/local_setup.zsh'
+[13.577s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafael/ROS2Dev/robot_2025_ws/src/practica1_description/install/setup.zsh'

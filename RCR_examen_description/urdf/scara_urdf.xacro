@@ -2,6 +2,15 @@
 
 <robot name="robot_scara" xmlns:xacro="http://ros.org/wiki/xacro">
 	
+	<link name="world">
+	</link>
+
+	<joint name="world_joint">
+		<parent link="world" />
+		<child link="base_link" />	
+		<origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+	</joint>
+	
 	<link name="base_link">
 		<visual>
 			<origin xyz="0.0 0.0 0.4353" rpy="0.0 0.0 0.0"/>
@@ -151,5 +160,14 @@
 		<limit lower="-0.78" upper="0.78" velocity="30"
 			effort="10" />
 		<origin xyz="0.0 0.0 0.8706" rpy="0.0 0.0 0.0" />
+	</joint>
+
+	<link name="P">
+	</link>
+
+	<joint name="link_P_joint" type="">
+		<parent link="link_3" />
+		<child link="P" />
+		<origin xyz="0.25 0.0 0.0" rpy="0.0 0.0 0.0" />
 	</joint>
 </robot>
